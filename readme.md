@@ -30,11 +30,11 @@ This Charity and Donation Management System is a command-line application design
 
 4. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/blekas10/PHP-donation_CLI.git
+    git clone https://github.com/blekas10/PHP-donation_CLI-MySQL-.git
    
 5. Navigate to the application directory:
     ```bash
-    cd PHP-donation_CLI
+    cd PHP-donation_CLI-MySQL-
 
 6. Update the database connection settings in the `dbConnect()` function located in `dbConnect.php` to include the right credentials for your database. Add $host, $username, and $password if there is no `donationcli_db` it will create itself.
 
