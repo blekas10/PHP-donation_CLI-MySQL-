@@ -18,6 +18,7 @@ This Charity and Donation Management System is a command-line application design
 
 - PHP 7.4 or higher installed on your system.
 - Git installed on your system.
+- MySQL or MariaDB server installed.
 
 ### Installation
 
@@ -35,7 +36,9 @@ This Charity and Donation Management System is a command-line application design
     ```bash
     cd PHP-donation_CLI
 
-6. Run the application:
+6. Update the database connection settings in the `dbConnect()` function located in `dbConnect.php` to include the right credentials for your database. Add $host, $username, and $password if there is no `donationcli_db` it will create itself.
+
+7. Run the application:
     ```bash
     php cli.php
 
